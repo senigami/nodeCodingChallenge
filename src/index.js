@@ -28,7 +28,7 @@ function initArgs() {
 }
 
 function getGitCommentCounts(req) {
-  // type array contains the differnt areas we will get counts from
+  // type array contains the different areas we will get counts from
   const type = ['repo', 'issue', 'pull', 'contrib']
 
   // arg for this contains a letter but since it is only days we can clear it
